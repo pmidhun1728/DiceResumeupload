@@ -21,7 +21,7 @@ public class LoginTest extends Base {
     @Test
     public void login(){
 
-        loginPage.login("midhun.pavuluru@gmail.com", "8056284834Mi1!");
+        loginPage.login("midhun.pavuluru@gmail.com", "");
         loginPage.clickProfilePage();
     }
 
