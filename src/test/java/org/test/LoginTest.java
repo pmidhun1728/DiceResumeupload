@@ -19,10 +19,11 @@ public class LoginTest extends Base {
 
 
     @Test
-    public void login(){
+    public void login() throws InterruptedException {
 
         loginPage.login("midhun.pavuluru@gmail.com", "");
         loginPage.clickProfilePage();
+        loginPage.clickUploadNewResume();
     }
 
 }
